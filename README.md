@@ -10,3 +10,4 @@ A workflow for fetching organization numbers from Brønnøysundregistrene.
 
 ## Credits
 This workflow uses [alfred-workflow](https://github.com/deanishe/alfred-workflow).
+Heavily inspired by [alfed-hackernews](https://github.com/fniephaus/alfred-hackernews).
