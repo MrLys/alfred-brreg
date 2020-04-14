@@ -5,9 +5,22 @@
 	<key>bundleid</key>
 	<string></string>
 	<key>category</key>
-	<string>Internet</string>
+	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
+		<key>2EB63219-A34A-4191-8E22-ABE9E4477551</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>45D2EEE0-772C-4226-8852-B6BA73B0C57D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>C1EE1FB6-758A-479C-9195-17A886203B7D</key>
 		<array>
 			<dict>
@@ -160,11 +173,67 @@
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>org</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Generating random org number</string>
+				<key>script</key>
+				<string>python brreg.py "org"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>random org number with Alfred</string>
+				<key>title</key>
+				<string>Generate random org number</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>2EB63219-A34A-4191-8E22-ABE9E4477551</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
 	<key>uidata</key>
 	<dict>
+		<key>2EB63219-A34A-4191-8E22-ABE9E4477551</key>
+		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
+			<key>ypos</key>
+			<integer>265</integer>
+		</dict>
 		<key>45D2EEE0-772C-4226-8852-B6BA73B0C57D</key>
 		<dict>
 			<key>xpos</key>
